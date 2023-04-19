@@ -167,7 +167,7 @@ function _Home() {
         className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}
       >
         <div className={styles["sidebar-header"]}>
-          <div className={styles["sidebar-title"]}>ChatGPT Next</div>
+          <div className={styles["sidebar-title"]}>ChatGPT by Balderich</div>
           <div className={styles["sidebar-sub-title"]}>
             Build your own AI assistant.
           </div>
@@ -195,14 +195,14 @@ function _Home() {
               />
             </div>
             <div className={styles["sidebar-action"]}>
-              <IconButton
+              {/* <IconButton
                 icon={<SettingsIcon />}
                 onClick={() => {
                   setOpenSettings(true);
                   setShowSideBar(false);
                 }}
                 shadow
-              />
+              /> */}
             </div>
             <div className={styles["sidebar-action"]}>
               <a href={REPO_URL} target="_blank">

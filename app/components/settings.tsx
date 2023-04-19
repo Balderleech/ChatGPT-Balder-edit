@@ -469,7 +469,7 @@ export function Settings(props: { closeSettings: () => void }) {
         </List>
 
         <List>
-          <SettingItem
+          {/* <SettingItem
             title={Locale.Settings.Token.Title}
             subTitle={Locale.Settings.Token.SubTitle}
           >
@@ -481,7 +481,7 @@ export function Settings(props: { closeSettings: () => void }) {
                 accessStore.updateToken(e.currentTarget.value);
               }}
             />
-          </SettingItem>
+          </SettingItem> */}
 
           {/* <SettingItem
             title={Locale.Settings.Usage.Title}

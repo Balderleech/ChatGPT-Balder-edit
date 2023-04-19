@@ -318,7 +318,7 @@ export function Settings(props: { closeSettings: () => void }) {
           )}
         </List>
 
-        
+
         <List>
           <SettingItem title={Locale.Settings.Avatar}>
             <Popover
@@ -483,7 +483,7 @@ export function Settings(props: { closeSettings: () => void }) {
             />
           </SettingItem>
 
-          <SettingItem
+          {/* <SettingItem
             title={Locale.Settings.Usage.Title}
             subTitle={
               showUsage
@@ -505,7 +505,7 @@ export function Settings(props: { closeSettings: () => void }) {
                 onClick={checkUsage}
               />
             )}
-          </SettingItem>
+          </SettingItem> */}
 
           <SettingItem
             title={Locale.Settings.HistoryCount.Title}
